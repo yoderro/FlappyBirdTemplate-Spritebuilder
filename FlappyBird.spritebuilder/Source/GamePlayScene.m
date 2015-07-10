@@ -8,7 +8,7 @@
 {
     // your code here
 }character = (Character*)[CCBReader load:@"Character"];
-[physicsNode addChild:character];
+[CCPhysicsNode addChild:character];
 -(void)update:(CCTime)delta
 {
     // put update code here
@@ -18,5 +18,5 @@
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
     [character flap];
 }
--(type I return)nameOfMethod: (type of first parameter) firstParameter continuation(
+
 @end
